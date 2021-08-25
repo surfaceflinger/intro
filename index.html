@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[intro] new tab</title>
+  <link rel="stylesheet" href="/site/css/main.css">
+  <meta name="theme-color" content="#2e2e3e" />
+  <meta name="description" content="simple start page for your browser" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="[intro]" />
+  <meta property="og:description" content="simple start page for your browser" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="[intro]" />
+  <meta name="twitter:description" content="simple start page for your browser" />
+</head>
+
+<body>
+  <span class="greeting"><span class="greeter-message">Hello</span>, nat</span>
+  <div class="search">
+    <img class="search-icon" src="/site/img/search.png">
+    <form class="search-form" action="https://www.google.com/search" method="get">
+      <input type="text" id="q" name="q">
+    </form>
+  </div>
+  
+  <div class="tabs">
+    <div class="tab profile">
+      <img class="pfp" src="/site/img/pfp.png" alt="profile picture">
+      <span class="name">nat</span>
+    </div>
+    
+    <div class="tab links">
+      <span class="tab-title social">[social]</span>
+      <a class="link" href="https://reddit.com">reddit</a>
+      <a class="link" href="https://twitter.com">twitter</a>
+      <a class="link" href="https://element.nekopon.pl">matrix</a>
+      <a class="link" href="https://messenger.com">messenger</a>
+    </div>
+    
+    <div class="tab links">
+      <span class="tab-title media">[media]</span>
+      <a class="link" href="https://youtube.com">youtube</a>
+      <a class="link" href="https://tidal.com">tidal</a>
+      <a class="link" href="https://unsplash.com">unsplash</a>
+      <a class="link" href="https://cloud.nekopon.pl:6969/">cloud</a>
+    </div>
+    
+    <div class="tab links">
+      <span class="tab-title tech">[tech]</span>
+      <a class="link" href="https://github.com">github</a>
+      <a class="link" href="https://tidal.com">ovh</a>
+      <a class="link" href="https://openbsd.org">openbsd</a>
+      <a class="link" href="https://archlinux.org/news/">archlinux</a>
+    </div>
+    
+    <div class="tab links">
+      <span class="tab-title work">[work]</span>
+      <a class="link" href="https://login.ingbank.pl/mojeing/app/">ing</a>
+      <a class="link" href="https://mail.tutanota.com/">email</a>
+      <a class="link" href="https://office.com">office</a>
+    </div>
+    
+    <div class="tab weather">
+      <img class="weather-icon" alt="weather icon">
+      <div class="weather-container">
+        <p class="weather-city"><p>
+        <p class="weather-temperature"></p>
+        <p class="weather-description"></p>
+      </div>
+    </div>
+  </div>
+  
+	<script type='text/javascript' src='/site/js/date.js'></script>
+  <script type='text/javascript' src='/site/js/weather.js'></script>
+	<script type='text/javascript' src='/site/js/init.js'></script>
+</body>
+
+</html>
