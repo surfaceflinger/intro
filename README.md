@@ -6,6 +6,8 @@ works fine without js (won't show weather and greeting won't update)
 
 you can also easily swap google for searx
 
+[preview](https://morelcia.github.io/intro)
+
 ## How to setup
 
 1. Change name in .greeting span and pfp to yours in .pfp img \[index.html\]
