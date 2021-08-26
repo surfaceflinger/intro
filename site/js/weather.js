@@ -21,11 +21,11 @@ class Weather {
 	  this._currWeather = await this._fetchWeatherApi();
 	  console.log(this._currWeather);
 	  if (this._currWeather.cod == '200') {
-	    this._divDOM.style.display = 'flex';
 	    this._iconDOM.setAttribute('src', 'https://openweathermap.org/img/wn/' + this._currWeather.weather[0].icon + '@2x.png');
 	    this._cityDOM.innerText = this._currWeather.name;
 	    this._tempDOM.innerHTML = this._currWeather.main.temp + '<b>°C</b>';
 	    this._descDOM.innerText = this._currWeather.weather[0].description;
+	    this._divDOM.style.display = 'flex';
 	  }
 	}
 
