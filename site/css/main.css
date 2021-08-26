@@ -17,10 +17,7 @@ a {
   text-decoration: inherit
 }
 
-.greeting {
-  font-size: 4em;
-  padding: 0.5em
-}
+.greeting { font-size: 4em }
 
 .search {
   align-items: center;
@@ -28,6 +25,7 @@ a {
   border-radius: 2em;
   display: flex;
   height: 50px;
+  margin: 1em;
   max-width: 500px;
   padding: 0 15px 0 15px;
   width: 80%
@@ -48,8 +46,7 @@ a {
   align-items: stretch;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 1em
+  justify-content: center
 }
 
 .tab {
