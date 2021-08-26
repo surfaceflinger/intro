@@ -12,7 +12,7 @@ class Weather {
 	}
 	
 	async _fetchWeatherApi() {
-    const response = await fetch('https://api.openweathermap.org/data/2.5/weather?units=metric&q=' + this._city + '&appid=' + this._apiKey);
+    const response = await fetch(this._apiEndpoint + '?units=metric&q=' + this._city + '&appid=' + this._apiKey);
     const json = await response.json();
     return json;
   }
